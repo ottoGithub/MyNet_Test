@@ -1,0 +1,9 @@
+*.sdf
+*.suo
+Debug/
+Releadse/
+obj/
+ipch/
+Temp/
+BinTemp/
+Bin/

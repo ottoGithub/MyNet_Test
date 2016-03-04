@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{c35e7327-a2b4-4699-adca-b7590d09518d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{25816f93-399d-40b4-902d-d93766a57926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{ec6456ac-7cb5-4c79-a978-34f1ddfc9d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GTimer">
+      <UniqueIdentifier>{7e1e3833-0a92-4d81-8f1a-0b7121884263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{a0077ec2-0aad-4180-bef4-c86f3a47cb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{3dd0053b-aad5-4aed-b94e-0e905d33f0e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PeerBase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PreComp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NoCopyable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mutex.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TFunctionArg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ProcessBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetManagerBase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SocketBase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CircularBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\AtomicCounter.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\AtomicULong.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\NetReactor.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IOCPReactor.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CompleteOperation.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SocketOps.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\HelperFunction.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MySocket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CircleList.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\UtilID.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TManager.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GTimer.h">
+      <Filter>GTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ClassManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PacketDefine.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PacketBase.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PacketFactory.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PacketFunction.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PacketList.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PacketProcess.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PoolAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CommonLog.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PeerBase.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PreComp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CircularBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SocketBase.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NetManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AtomicCounter.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AtomicULong.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IOCPReactor.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CompleteOperation.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SocketOps.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UtilID.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MySocket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Factory.h">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GTimer.cpp">
+      <Filter>GTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\BaseType.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PacketBase.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PacketDefine.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\PacketFactory.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PacketList.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PacketProcess.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\PoolAllocator.inl">
+      <Filter>Memory</Filter>
+    </None>
+  </ItemGroup>
+</Project>
